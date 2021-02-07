@@ -2,6 +2,10 @@
 
 A Java program to illustrate Caesar Cipher Technique 
 
+Program that receives a Text (string) and Shift value( integer) and returns the encrypted text.
+
+
+
 * The Caesar Cipher technique is one of the earliest and simplest method of encryption technique. 
  * It’s simply a type of substitution cipher, i.e., each letter of a given text is replaced by a letter some fixed number of positions down the alphabet
 
@@ -19,9 +23,24 @@ Procedure:
   <li> Return the new string generated. </li>
 </ol>
 
+<h3>Q- How to encrypt using Caesar cipher?</h3>
 
+  Encryption with Caesar code is based on an alphabet shift (move of letters further in the alphabet), 
+  it is a monoalphabetic substitution cipher, ie. a same letter is replaced with only one other (always the same for given cipher message). 
+  The most commonly used shift/offset is by 3 letters.
+<table style="width:100%">
+  <tr>
+    <th>Plain Alphabet</th>
+    <th>ABCDEFGHIJKLMNOPQRSTUVWXYZ</th>
+    
+  </tr>
+  <tr>
+    <th>Caesar Alphabet (+3)</th>
+    <th>DEFGHIJKLMNOPQRSTUVWXYZABC</th>
+    
+  </tr>
+  
+</table>
 
+<img src="Resources/C_cipher.png" alt="Cipher Fig-1" style="margin-right: 10px; width: 241px" />	
 
-
-
-Program that receives a Text (string) and Shift value( integer) and returns the encrypted text.
