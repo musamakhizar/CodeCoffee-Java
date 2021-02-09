@@ -1,11 +1,12 @@
-
 class ComputeElectricityBill 
 { 
-	private long units;
-	private double bill;
+	private long units; // 64bits integer value i.e 1,100,20678
+	private double bill; // 64bit float value i.e 55.568,
 	
 	//	Constructors
+	
 	public ComputeElectricityBill() {
+		this.units = 0;
 		this.bill = 0.00;
 	}
 	public ComputeElectricityBill(long units) {
